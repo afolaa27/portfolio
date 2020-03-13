@@ -16,6 +16,9 @@
 	justify-content: space-around;
 }
 .skill{
+	display:flex;
+	flex-direction: column;
+	text-align: center;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 40px;
@@ -23,11 +26,15 @@
 	transition: all .4s ease-in-out;
 }
 img{
-	height: 150px;
-	width: 150px;
+	
+	height: 120px;
+	width: 140px;
 }
 .skill:hover{
 	opacity: 1.0;
 	border-radius: 1%;
 	transform: scale(1.1);
+}
+span{
+	font-family: courier new;
 }
