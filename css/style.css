@@ -1,0 +1,33 @@
+.button{
+	padding-top: 10px;
+}
+.home{
+  margin: auto;
+  
+  padding: 130px;
+}
+.flex{
+	padding-top: 60px;
+	padding-left: auto;
+	width: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.skill{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 40px;
+	opacity: 0.8;
+	transition: all .4s ease-in-out;
+}
+img{
+	height: 150px;
+	width: 150px;
+}
+.skill:hover{
+	opacity: 1.0;
+	border-radius: 1%;
+	transform: scale(1.1);
+}
