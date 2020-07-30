@@ -1,6 +1,9 @@
 .button{
 	padding-top: 10px;
 }
+body{
+	background-color: white;
+}
 .home{
   margin: auto;
   padding-top: 100px;
